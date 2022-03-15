@@ -24,6 +24,12 @@ h2 {
   line-height: 1.5;
 }
 
+h3 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -135,6 +141,27 @@ h2 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #FF4C68;
+  color: #FFF;
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  padding: 3% 15%;
+  background-color: #FFF;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#footer i {
+  margin: 0 8px;
 }
 
 
