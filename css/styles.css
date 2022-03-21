@@ -1,33 +1,39 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-#title {
-  background-color: #FF4C68;
-  color: #fff;
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-}
+/* Headings */
 
-h1 {
+.big-heading {
   font-size: 3.5rem;
   line-height: 1.5;
-  font-weight: 900;
 }
 
-h2 {
-  font-weight: 600;
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
+/* Container Section */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #FFF;
 }
 
 /* Navigation Bar */
@@ -57,6 +63,13 @@ h3 {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* Title Image */
 
 .title-image {
@@ -66,20 +79,15 @@ h3 {
   right: 25%;
 }
 
-
-
 /* Feature Section */
 
 #features {
-  padding: 7% 15%;
-  background-color: #FFF;
   position:relative;
 
 }
 
 .feature-column{
   padding: 5%;
-  text-align: center;
 }
 
 .feature-icon {
@@ -92,7 +100,6 @@ h3 {
 }
 
 .feature-title {
-  font-weight: 600;
   font-size: 1.5rem;
 }
 
@@ -103,9 +110,7 @@ h3 {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background-color: #EF8172;
-  color: #FFF;
 }
 
 .testimonial-img {
@@ -114,16 +119,15 @@ h3 {
   margin: 20px;
 }
 
-.carousel-item  {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
-
 
 /* Press Section */
 
 #press {
   background-color: #EF8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -136,34 +140,26 @@ h3 {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* Call to Action */
-
-#cta {
-  background-color: #FF4C68;
-  color: #FFF;
-  font-family: 'Montserrat';
-  text-align: center;
-  padding: 7% 15%;
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
+/* Footer Section */
+
 #footer {
-  padding: 3% 15%;
-  background-color: #FFF;
-  text-align: center;
   line-height: 1.5;
 }
 
 #footer i {
   margin: 0 8px;
 }
-
 
 @media (max-width: 1028px) {
 
